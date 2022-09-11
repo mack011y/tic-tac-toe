@@ -1,0 +1,56 @@
+#play_polygon{
+    width: 298px;
+    height: 298px;
+    margin: auto;
+}
+
+#status{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    border: 3px black;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cell{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    border: 3px black;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    background: #00fdfd;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+btn:hover{
+    background: #01d0d0;
+}
+
+.cell:hover{
+    background-color: rgb(230, 230, 230);
+}
