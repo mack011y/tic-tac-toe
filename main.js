@@ -33,7 +33,7 @@ function CLickOnCell(id){
     }
     else{
         if (CheckDrow()){
-            status.innerHTML = "DROW";
+            status.innerHTML = "DRAW";
             game = 0;
         }
     }
